@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # reading the data to a pandas dataframe
-vehicle_df = pd.read_csv('/home/john/Software_dev_tools_project-1/vehicles_us.csv', sep=',')
+vehicle_df = pd.read_csv('./home/john/Software_dev_tools_project-1/vehicles_us.csv', sep=',')
 
 # Fixing, renaming, and changing colummn headers and values
 # renaming columns
